@@ -1,0 +1,32 @@
+.manual-payment .card {
+  box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.manual-payment .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, 0.125);
+  border-radius: 1rem;
+}
+.manual-payment .text-reset {
+  --bs-text-opacity: 1;
+  color: inherit !important;
+}
+.manual-payment a {
+  color: #5465ff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .my-data-cont {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
